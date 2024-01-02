@@ -69,3 +69,16 @@ console.log(isPowerOfTwo(2));
 console.log(isPowerOfTwo(5));
 // Big-O = Olog(n)
 
+// is Power of two BiWise
+function isPowerOfTwoBitWise(n){
+  if(n < 1){
+    return false
+  }
+  return  (n & (n-1)) === 0
+}
+
+console.log("*****is Power of Two BitWise.****");
+console.log(isPowerOfTwoBitWise(1));
+console.log(isPowerOfTwoBitWise(2));
+console.log(isPowerOfTwoBitWise(5));
+// Big-O = O(n)
