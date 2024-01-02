@@ -98,3 +98,16 @@ console.log(recursiveFibbonacci(1))
 console.log(recursiveFibbonacci(6))
 // O(n) - Iterative
 // O(2^n) - Recursive
+
+// Recursive factorial
+function recursiveFactorial(n){
+  if(n === 0){
+    return 1
+  }
+  return n * recursiveFactorial(n-1)
+}
+
+console.log("**Recursive Factorial***");
+console.log(recursiveFactorial(0));
+console.log(recursiveFactorial(1));
+console.log(recursiveFactorial(5));
