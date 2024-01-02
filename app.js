@@ -82,3 +82,19 @@ console.log(isPowerOfTwoBitWise(1));
 console.log(isPowerOfTwoBitWise(2));
 console.log(isPowerOfTwoBitWise(5));
 // Big-O = O(n)
+
+
+// Recursive Fibbonacci
+function recursiveFibbonacci(n){
+  if(n < 2){
+    return n
+  }
+  return recursiveFibbonacci(n-1) + recursiveFibbonacci(n-2);
+}
+
+console.log("**Recursive Fibbonaci***")
+console.log(recursiveFibbonacci(0))
+console.log(recursiveFibbonacci(1))
+console.log(recursiveFibbonacci(6))
+// O(n) - Iterative
+// O(2^n) - Recursive
