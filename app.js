@@ -7,6 +7,22 @@ function fibonacci(n) {
   }
   return fib;
 }
- console.log(fibonacci(2));
+
+console.log("****Fibonacci****");
+console.log(fibonacci(2));
 console.log(fibonacci(3));
 console.log(fibonacci(7));
+
+function factorial(n){
+  let result = 1;
+  for(i = 2; i<=n; i++){
+    result = result * i;
+  }
+  return result;
+}
+
+
+console.log("****Factorial****")
+console.log(factorial(0))
+console.log(factorial(1))
+console.log(factorial(5))
