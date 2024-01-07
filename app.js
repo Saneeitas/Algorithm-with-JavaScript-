@@ -238,3 +238,6 @@ function quickSort(arr){
 console.log("***Quick Sort***");
 quickSort(arr);
 console.log(arr);
+
+// worst case  - 0(n^2)
+// avg case -  0(nlogn)
